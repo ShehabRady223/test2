@@ -1,0 +1,35 @@
+.all {
+    background-color: #F4F2EE;
+    padding-left: 320px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #110d0d1e;
+}
+
+.item {
+    margin-right: 10px;
+    background-color: #F4F2EE;
+    padding: 10px 20px;
+    border: solid 1px #110d0d1e;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.item:hover {
+    color: #fff;
+    background-color: black;
+    box-shadow: 0 10px 10px 0 #00000057;
+}
